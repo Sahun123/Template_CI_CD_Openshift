@@ -35,6 +35,11 @@
             "name": "CONTEXT_DIR",
             "value": "",
             "required": false
+        },
+		{
+			"name": "NVIDIA-GPU",
+            "value": "1",
+            "required": true
         }
     ],
     "objects": [
@@ -153,7 +158,7 @@
                                 "resources": {
                                     "limits": {
                                         "memory": "${NOTEBOOK_MEMORY}",
-										"nvidia.com/gpu": "1"
+										"nvidia.com/gpu": "${NVIDIA-GPU}"
                                     }
                                 },
                                 "env": [
