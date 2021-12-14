@@ -16,6 +16,11 @@
             "value": "custom-notebook",
             "required": true
         },
+	{
+            "name": "APPLICATION_NAME",
+            "value": "custom-notebook",
+            "required": true
+        },
         {
             "name": "BUILDER_IMAGE",
             "value": "s2i-minimal-notebook:3.6",
