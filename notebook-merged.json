@@ -28,7 +28,7 @@
         },
         {
             "name": "GIT_REPOSITORY_URL",
-            "value": "https://github.com/jupyter-on-openshift/jupyter-notebooks/tree/develop/tensorflow-notebook",
+            "value": "https://github.com/Sahun123/Template_CI_CD_Openshift",
             "required": true
         },
         {
