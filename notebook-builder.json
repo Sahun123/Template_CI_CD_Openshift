@@ -23,7 +23,7 @@
         },
         {
             "name": "GIT_REPOSITORY_URL",
-            "value": "",
+            "value": "https://github.com/Sahun123/Template_CI_CD_Openshift",
             "required": true
         },
         {
