@@ -153,7 +153,7 @@
                                 "resources": {
                                     "limits": {
                                         "memory": "${NOTEBOOK_MEMORY}",
-										"nvidia.com/gpu": 10
+					"nvidia.com/gpu": 10
                                     }
                                 },
                                 "env": [
