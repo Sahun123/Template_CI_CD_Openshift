@@ -153,11 +153,7 @@
                                 "resources": {
                                     "limits": {
                                         "memory": "${NOTEBOOK_MEMORY}",
-<<<<<<< Updated upstream
-					"nvidia.com/gpu": 10
-=======
 										"nvidia/gpu": 1
->>>>>>> Stashed changes
                                     }
                                 },
                                 "env": [
