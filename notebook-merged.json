@@ -35,7 +35,31 @@
             "name": "CONTEXT_DIR",
             "value": "",
             "required": false
-        }
+        },
+		        {
+            "name": "APPLICATION_NAME",
+            "value": "custom-notebook",
+            "required": true
+        },
+        {
+            "name": "NOTEBOOK_IMAGE",
+            "value": "s2i-minimal-notebook:3.6",
+            "required": true
+        },
+        {
+            "name": "NOTEBOOK_PASSWORD",
+            "value": "password",
+            "required": true
+        },
+        {
+            "name": "NOTEBOOK_INTERFACE",
+            "value": "classic"
+        },
+        {
+            "name": "NOTEBOOK_MEMORY",
+            "value": "512Mi",
+            "required": true
+		}
     ],
     "objects": [
         {
