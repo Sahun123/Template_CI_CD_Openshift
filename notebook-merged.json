@@ -11,11 +11,6 @@
         }
     },
     "parameters": [
-        {
-            "name": "NOTEBOOK_NAME",
-            "value": "custom-notebook",
-            "required": true
-        },
 	{
             "name": "APPLICATION_NAME",
             "value": "custom-notebook",
@@ -40,11 +35,6 @@
             "name": "CONTEXT_DIR",
             "value": "",
             "required": false
-        },
-		        {
-            "name": "APPLICATION_NAME",
-            "value": "custom-notebook",
-            "required": true
         },
         {
             "name": "NOTEBOOK_IMAGE",
@@ -71,9 +61,9 @@
             "kind": "ImageStream",
             "apiVersion": "image.openshift.io/v1",
             "metadata": {
-                "name": "${NOTEBOOK_NAME}",
+                "name": "${APPLICATION_NAME}",
                 "labels": {
-                    "build": "${NOTEBOOK_NAME}"
+                    "build": "${APPLICATION_NAME}"
                 }
             },
             "spec": {
@@ -86,9 +76,9 @@
             "kind": "BuildConfig",
             "apiVersion": "build.openshift.io/v1",
             "metadata": {
-                "name": "${NOTEBOOK_NAME}",
+                "name": "${APPLICATION_NAME}",
                 "labels": {
-                    "build": "${NOTEBOOK_NAME}"
+                    "build": "${APPLICATION_NAME}"
                 }
             },
             "spec": {
@@ -120,7 +110,7 @@
                 "output": {
                     "to": {
                         "kind": "ImageStreamTag",
-                        "name": "${NOTEBOOK_NAME}:latest"
+                        "name": "${APPLICATION_NAME}:latest"
                     }
                 }
             }
