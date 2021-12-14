@@ -141,7 +141,7 @@
                             ],
                             "from": {
                                 "kind": "ImageStreamTag",
-                                "name": "${NOTEBOOK_IMAGE}"
+                                "name": "${APPLICATION_NAME}"
                             }
                         }
                     }
