@@ -10,6 +10,9 @@
             "tags": "python,jupyter"
         }
     },
+    "labels": {
+	    "template": "notebook-merged",
+    },
     "parameters": [
 	{
             "name": "APPLICATION_NAME",
