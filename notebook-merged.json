@@ -171,7 +171,6 @@
                                 ],
                                 "resources": {
                                     "limits": {
-                                        "memory": "${NOTEBOOK_MEMORY}",
 					"nvidia.com/gpu": "1"
                                     }
                                 },
