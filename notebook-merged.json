@@ -2,7 +2,7 @@
     "kind": "Template",
     "apiVersion": "template.openshift.io/v1",
     "metadata": {
-        "name": "notebook-merged",
+        "name": "custom-notebook",
         "annotations": {
             "openshift.io/display-name": "Jupyter Notebook Builder",
             "description": "Template for creating customised Jupyter Notebook images.",
@@ -11,7 +11,7 @@
         }
     },
     "labels": {
-	    "template": "notebook-merged"
+	    "template": "custom-notebook"
     },
     "parameters": [
 	{
