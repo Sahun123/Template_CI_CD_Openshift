@@ -11,7 +11,7 @@
         }
     },
     "labels": {
-	    "template": "notebook-merged",
+	    "template": "notebook-merged"
     },
     "parameters": [
 	{
